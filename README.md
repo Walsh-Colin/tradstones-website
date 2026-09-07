@@ -1,6 +1,6 @@
 # Tradstone website
 
-A responsive, single-page band brochure built with HTML, CSS, and JavaScript. Set up your band information once and leave it online. No login, admin area, database, packages, or build step. There is no news feed or gig calendar to maintain. All default artwork is made with CSS and SVG, and the site uses system fonts.
+A responsive, single-page band brochure built with HTML, CSS, and JavaScript. Set up your band information once and leave it online. No login, admin area, database, packages, or build step. There is no news feed or gig calendar to maintain. The dark Celtic theme uses charcoal and forest-green backgrounds, antique-gold knotwork, large serif headings, and prominent musician names. All artwork is local CSS and SVG, and the site uses system fonts.
 
 ## Open the website
 
@@ -15,7 +15,7 @@ Double-click `index.html` to open it in your browser. Refresh after saving chang
 5. Edit the headings and other fixed text in `index.html`. Replace the default band name in that file too, including the title and description, so search engines and visitors with JavaScript disabled receive your details.
 6. Edit the colours at the top of `styles.css` to change the look. Replace `assets/favicon.svg` with your own icon if desired.
 
-The band details come from the supplied Facebook screenshots, and the Facebook links use `https://www.facebook.com/tradstonemusic/`. No recordings are invented. The gallery links to Facebook until local photos are supplied. The group photo attached in chat still needs to be saved into `assets/photos/` and added to `photos` in `band-config.js`; it is not included in the local files yet. The dated gig poster is intentionally omitted from this evergreen brochure. The illustrated record and sleeve are decorative, not a real release or audio player. Only change the content if the band's information changes.
+The band details come from the supplied Facebook screenshots, and the Facebook links use `https://www.facebook.com/tradstonemusic/`. No recordings are invented. The gallery links to Facebook until local photos are supplied. The group photo attached in chat still needs to be saved into `assets/photos/` and added to `photos` in `band-config.js`; it is not included in the local files yet. The dated gig poster is intentionally omitted from this evergreen brochure. The Celtic medallion and sleeve are decorative artwork, not a real release or audio player. Only change the content if the band's information changes.
 
 Keep quotes and commas intact when editing the settings. Lines beginning with `//` are comments and do not appear on the site. All configuration is public: never put passwords or API keys here.
 
@@ -27,6 +27,8 @@ styles.css             Responsive layout, colours, and artwork
 band-config.js         Band information, links, and photos
 script.js              Navigation and rendering of configured content
 assets/favicon.svg     Browser tab icon
+assets/celtic-knot.svg  Gold Celtic knotwork medallion
+assets/celtic-braid.svg Repeating woven border
 assets/photos/         Your band photographs
 .gitignore             Excludes common local files from version control
 README.md              Setup and editing instructions
