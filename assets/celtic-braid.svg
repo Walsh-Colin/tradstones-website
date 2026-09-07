@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" viewBox="0 0 160 40" fill="none">
+  <path d="M0 3H160M0 37H160" stroke="#b9904e" stroke-opacity=".4"/>
+  <path d="M-40 20Q-20-7 0 20T40 20T80 20T120 20T160 20T200 20M-40 20Q-20 47 0 20T40 20T80 20T120 20T160 20T200 20" stroke="#b9904e" stroke-width="3"/>
+  <path d="m-6 13 12 14m68-14 12 14m68-14 12 14M34 27l12-14m68 14 12-14" stroke="#0c1512" stroke-width="8"/>
+  <path d="m-6 13 12 14m68-14 12 14m68-14 12 14M34 27l12-14m68 14 12-14" stroke="#d9b879" stroke-width="3"/>
+</svg>

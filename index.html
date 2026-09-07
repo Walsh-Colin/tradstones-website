@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090e0c">
+  <meta name="description" content="Meet Tradstone. Discover our music and get in touch to book the band for your event.">
+  <title>Tradstone — Music & Bookings</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="band-config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Tradstone home"><img class="brand-icon" src="assets/celtic-knot.svg" alt="" width="52" height="52"> <span data-band-name>Tradstone</span></a>
+    <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" hidden>Menu <span aria-hidden="true">+</span></button>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a href="#about">The band</a><a href="#music">Music</a><a href="#gallery">Gallery</a><a class="nav-booking" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Tipperary & Galway / Trad rock</p>
+        <h1 id="hero-title"><span class="hero-pretitle">Live. Loud.</span><span class="hero-band-name" data-band-name>Tradstone</span></h1>
+        <p class="hero-description" id="tagline">A four-piece trad rock band from Lorrha, Co. Tipperary, and Portumna, Co. Galway.</p>
+        <div class="button-row"><a class="button button-light" href="#music">Find our music <span aria-hidden="true">↗</span></a><a class="text-link" href="#contact">Book the band <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="hero-art">
+        <span class="art-index">Irish roots / Electric spirit</span>
+        <img class="hero-knot" src="assets/celtic-knot.svg" alt="Gold Celtic knotwork within an ornamental ring" width="640" height="640">
+        <span class="art-caption">Rooted in tradition.</span>
+      </div>
+      <div class="hero-foot"><span>Rooted in music. Made to be shared.</span><a href="#about">Get to know us <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div><p class="eyebrow section-label">01 / The band</p><h2 id="about-title">A little tradition.<br>A lot of <em>feeling.</em></h2></div>
+      <div class="about-copy"><p class="large-copy" id="about-lead">Traditional roots. A rock sound. Meet Tradstone.</p><p id="about-text">Based in Lorrha, Co. Tipperary, and Portumna, Co. Galway, Tradstone brings together vocals, guitar, whistle, flute, bodhrán, bass, keyboards, and drums.</p><a class="underlined-link" href="#contact">Let’s make a night of it <span aria-hidden="true">↗</span></a></div>
+      <dl class="band-members" aria-label="Band members">
+        <div><dt>Shane Dwyer</dt><dd>Vocals & guitar</dd></div>
+        <div><dt>Noreen Ryan</dt><dd>Whistle, flute & bodhrán</dd></div>
+        <div><dt>Anthony Slevin</dt><dd>Bass guitar, keyboards & vocals</dd></div>
+        <div><dt>Jonathan Fahy</dt><dd>Drums & vocals</dd></div>
+      </dl>
+    </section>
+
+    <section class="section music-section" id="music" aria-labelledby="music-title">
+      <div class="section-heading"><div><p class="eyebrow section-label">02 / Turn it up</p><h2 id="music-title">Find your next <em>favourite.</em></h2></div><p>Press play. Stay a while.</p></div>
+      <div class="music-layout">
+        <div class="sleeve"><span class="sleeve-title" data-band-name>Tradstone</span><img class="sleeve-knot" src="assets/celtic-knot.svg" alt="" width="640" height="640" loading="lazy"><div class="sleeve-footer"><span>IRISH TRAD</span><span>ROCK & ROOTS</span></div></div>
+        <div class="music-copy"><p class="eyebrow">The Tradstone sound</p><h3>Trad roots.<br>Rock energy.</h3><p id="music-description">Explore the Tradstone sound on our Facebook page.</p><div id="music-links" class="platform-links"><a href="https://www.facebook.com/tradstonemusic/">Find Tradstone on Facebook <span aria-hidden="true">↗</span></a></div><p id="music-empty" class="small-note" hidden>Listening links coming soon.</p></div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-heading"><div><p class="eyebrow section-label">03 / Behind the sound</p><h2 id="gallery-title">A few <em>moments.</em></h2></div><p>On stage. Backstage. Along the way.</p></div>
+      <div class="gallery-grid" id="gallery-grid">
+        <div class="gallery-fallback"><p>Band photos coming soon.</p></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div><p class="eyebrow">04 / Let’s talk</p><h2 id="contact-title">Your place.<br>Our <em>sound.</em></h2><p id="contact-description">For gigs, festivals, private events, or just to say hello.</p></div>
+      <div class="contact-action">
+        <a id="booking-link" class="button button-light" href="mailto:waddybee@yahoo.com?subject=Booking%20enquiry%20%E2%80%94%20Tradstone">Send a booking enquiry <span aria-hidden="true">↗</span></a>
+        <div class="contact-details"><a id="booking-email" href="mailto:waddybee@yahoo.com">waddybee@yahoo.com</a><a id="booking-phone" href="tel:+353862566122">Call 086 256 6122</a><span>Lorrha, Tipperary / Portumna, Galway</span></div>
+        <p id="contact-empty" hidden>Booking contact details coming soon.</p><p class="small-note" id="booking-hint">Tell us your date, venue, and a little about your event.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="wordmark" href="#home"><img class="brand-icon" src="assets/celtic-knot.svg" alt="" width="52" height="52"> <span data-band-name>Tradstone</span></a><p>© <span id="year">2026</span> <span data-band-name>Tradstone</span></p><div id="social-links" class="social-links"></div><a class="back-top" href="#home">Back to top ↑</a></footer>
+</body>
+</html>
