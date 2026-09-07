@@ -17,9 +17,7 @@ window.BAND_CONFIG = {
     // { label: "Find us on Bandcamp", url: "https://YOUR_BAND.bandcamp.com" },
   ],
   socialLinks: [
-    { label: "Facebook", url: "https://www.facebook.com/tradstonemusic/" },
     // { label: "Instagram", url: "https://www.instagram.com/YOUR_BAND/" },
-    // { label: "Facebook", url: "https://www.facebook.com/YOUR_BAND/" },
   ],
   photos: [
     // Put your images in assets/photos, then add one entry per photo:
